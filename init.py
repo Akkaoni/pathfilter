@@ -3,9 +3,6 @@ import os
 from utils.setup_folders import SetupFolders
 from utils.config import config
 
-
-
-
 def init():
     # Достаем config
     data = config.get_config()
@@ -16,7 +13,7 @@ def init():
         return 'NEED_CONFIG'
     else:
 
-        config_settings = data['config']
+        config_settings = data['config'] 
 
         # Переходим в рабочую папку
         os.chdir(const_path)
