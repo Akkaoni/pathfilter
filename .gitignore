@@ -1,0 +1,72 @@
+# --- Питоновские артефакты ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# --- Виртуальные окружения ---
+# Рекомендуется использовать стандартные имена: .venv, venv, env
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# --- Переменные окружения и секреты ---
+# НИКОГДА не коммитьте .env файлы с реальными ключами
+.env
+.venv
+*.env
+*.dev
+*.local
+.secrets
+
+# --- Тестирование и покрытие (Pytest, Coverage) ---
+htmlcov/
+.tox/
+.nosetests/
+.pytest_cache/
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.hypothesis/
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints
+
+# --- Логи ---
+*.log
+
+# --- Базы данных ---
+*.db
+*.sqlite3
+
+# --- Настройки IDE (PyCharm, VS Code) ---
+.vscode/
+.idea/
+*.swp
+*.swo
