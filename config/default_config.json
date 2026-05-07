@@ -1,0 +1,80 @@
+{
+    "path": "Выберите папку для работы",
+    "config": [{
+            "name": "Images",
+            "types": [{
+                    "name": "jpg",
+                    "isActive": true
+                },
+                {
+                    "name": "jpeg",
+                    "isActive": true
+                },
+                {
+                    "name": "png",
+                    "isActive": true
+                },
+                {
+                    "name": "gif",
+                    "isActive": true
+                },
+                {
+                    "name": "svg",
+                    "isActive": true
+                }
+            ]
+        },
+        {
+            "name": "Documents",
+            "types": [{
+                    "name": "pdf",
+                    "isActive": true
+                },
+                {
+                    "name": "docx",
+                    "isActive": true
+                },
+                {
+                    "name": "txt",
+                    "isActive": true
+                },
+                {
+                    "name": "xlsx",
+                    "isActive": true
+                }
+            ]
+        },
+        {
+            "name": "Archives",
+            "types": [{
+                    "name": "zip",
+                    "isActive": true
+                },
+                {
+                    "name": "tar",
+                    "isActive": true
+                },
+                {
+                    "name": "rar",
+                    "isActive": true
+                }
+            ]
+        },
+        {
+            "name": "Setup",
+            "types": [{
+                    "name": "exe",
+                    "isActive": true
+                },
+                {
+                    "name": "msi",
+                    "isActive": true
+                },
+                {
+                    "name": "dmg",
+                    "isActive": true
+                }
+            ]
+        }
+    ]
+}
