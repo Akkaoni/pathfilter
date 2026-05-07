@@ -1,4 +1,5 @@
 import tkinter as tk
+from utils.config import config
 
 from init import init
 from gui.pages.settings import open_settings_window
@@ -11,16 +12,17 @@ def run():
     if result == 'NEED_CONFIG':
         open_settings()
 
+lang = config.get_language()
 
 # 1. Создаем главное окно
 main_window = tk.Tk()
 main_window.title("Path Filter")
 main_window.geometry("500x150") # Устанавливаем размер окна
 
-btn_settings = tk.Button(main_window, text="Настройки", command=open_settings)
+btn_settings = tk.Button(main_window, text=lang["btn_settings"], command=open_settings)
 btn_settings.pack(pady=10)
 
-btn_run = tk.Button(main_window, text="Запуск", command=run)
+btn_run = tk.Button(main_window, text=lang["btn_run"], command=run)
 btn_run.pack(pady=10)
 
 # 3. Запускаем цикл обработки событий
